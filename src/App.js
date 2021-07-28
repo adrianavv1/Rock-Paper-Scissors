@@ -15,7 +15,7 @@ const App = () => {
       <button onClick={() => handleClick('paper')}>Paper</button>
       <button onClick={() => handleClick('scissors')}>Scissor</button> */}
       
-      {choices.map(choice => <button onClick={() => handleClick(choice)}>{choice}</button> )}
+      {choices.map((choice, index) => <button key={index} onClick={() => handleClick(choice)}>{choice}</button> )}
 
     </div>
   );
