@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState,useEffect } from "react";
 
 const App = () => {
   const [userChoice, setUserChoice] = useState(null);
@@ -8,9 +7,9 @@ const App = () => {
   const choices = ["rock", "paper", "scissors"];
 
   const handleClick = (value) => {
-    setUserChoice(value);
-    generateComputerChoice();
-  };
+    setUserChoice(value)
+    generateComputerChoice()
+  }
 
   const generateComputerChoice = () => {
     const randomChoice = choices[Math.floor(Math.random() * choices.length)];

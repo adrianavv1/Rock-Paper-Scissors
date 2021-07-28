@@ -1,3 +1,9 @@
+# Rock-Paper-Scissors
+
+This is a simple rock paper scissor game. In this app we implement useEffect and useState from react.
+It was a fun way to practice React :)
+Hope you enjoy!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
