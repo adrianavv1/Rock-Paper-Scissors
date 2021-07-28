@@ -1,11 +1,15 @@
-import  { useState }  from "react";
+import { useState } from "react";
 
 const App = () => {
-  const [userChoice, setuserChoice] = useState('null')
-  const choices = ['rock', 'paper', 'scissors']
+  const [userChoice, setuserChoice] = useState(null);
+  const choices = ["rock", "paper", "scissors"];
 
   const handleClick = (value) => {
-    setuserChoice(value)
+    setuserChoice(value);
+  };
+
+  const generateComputerChoice = () => {
+    const randomChoice = choices[Math.floorMath.random() * choices.length]
   }
   return (
     <div>
@@ -14,11 +18,14 @@ const App = () => {
       {/* <button onClick={() => handleClick('rock') }>Rock</button>
       <button onClick={() => handleClick('paper')}>Paper</button>
       <button onClick={() => handleClick('scissors')}>Scissor</button> */}
-      
-      {choices.map((choice, index) => <button key={index} onClick={() => handleClick(choice)}>{choice}</button> )}
 
+      {choices.map((choice, index) => (
+        <button key={index} onClick={() => handleClick(choice)}>
+          {choice}
+        </button>
+      ))}
     </div>
   );
-}
+};
 
 export default App;
