@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors
 
-This is a simple rock paper scissor game. In this app we implement useEffect and useState from react.
+This is a simple rock paper scissor game. In this app I implement useEffect and useState from react.
 It was a fun way to practice React :)
 Hope you enjoy!
 
