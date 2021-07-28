@@ -4,6 +4,8 @@ This is a simple rock paper scissor game. In this app we implement useEffect and
 It was a fun way to practice React :)
 Hope you enjoy!
 
+<img src='public\image.png' width="650"> 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
